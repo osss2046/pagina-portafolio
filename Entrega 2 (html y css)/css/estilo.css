@@ -1,0 +1,228 @@
+html{
+    height:100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    background-color:snow;
+}
+
+header{
+    text-align: center;
+    margin: 0;
+    height: 15vh;
+    
+    background-position: 0% 300%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/fondo1.png");
+}
+
+nav	{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-bottom: 5vh;
+    background-color:black;
+}
+
+ul{
+	margin-top: 10px;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+	padding: 1px
+}
+h2{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.seccion1{
+    margin-top: 1em;
+    width:100vw;
+    height: 50vh;
+    background-color: bisque;
+
+
+}
+.seccion2{
+    width: auto;
+    height: auto;
+}
+#bloque1{
+    float: left;
+    width:49vw;
+    height: 50vh;
+    background-color: brown;
+}
+#bloque2{
+    float: right;
+    width:49vw;
+    height: 50vh;
+    background-color:crimson
+}
+
+.seccion4{
+    width:100vw;
+    height: 50vh;
+    background-color: pink;
+}
+
+
+.seccion5{
+    margin-top: 1em;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    width: auto;
+    height: auto;
+}
+.seccion6{
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: auto;
+    height: auto;
+}
+
+.seccion7{
+    margin-top: 20px;
+    align-self: center;
+    width: 45vw;
+}
+.seccion8{
+    margin: 0;
+    align-self: center;
+    width: 45vw;
+}
+#letraUbi{
+    color: black;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+#img_ubi{
+    align-self: left;
+	border: 1px solid black;
+	background-image: url("../img/ub.png");
+    background-size: cover;
+	height: 30vh;
+	width: 45vw;
+}
+
+.imagen{
+    background-color:black;
+    height: 470px;
+    width: 300px;
+    max-width: 100%;
+    max-height: auto;
+    
+    margin: 15px;
+    float: left;
+
+
+}
+
+.cat1{
+	background-image: url("../img/foto1.png");
+	background-size: cover;
+    height: 423px;
+
+}
+p{
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.cat2{
+	background-image: url("../img/foto2.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat3{
+	background-image: url("../img/foto3.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat4{
+	background-image: url("../img/foto4.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat5{
+	background-image: url("../img/foto5.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat6{
+	background-image: url("../img/foto6.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat7{
+	background-image: url("../img/foto7.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat8{
+	background-image: url("../img/foto8.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat9{
+	background-image: url("../img/foto9.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat10{
+	background-image: url("../img/foto10.png");
+	background-size: cover;
+    height: 423px;
+}
+.cat11{
+    background-image: url("../img/foto11.png");
+    background-size: cover;
+    height: 423px;
+}
+
+
+table{
+	text-align: left;
+	height: 30vh;
+    width: 45vw;
+	margin:0;
+}
+
+#caja{
+	height:3vh;
+	width: 35vw;
+}
+#comentario{
+	height:20vh;
+	width: 35vw;
+}
+footer{
+    text-align: center;
+    color: black;
+    margin-top: 1vh;
+    min-width: 100%;
+    height: 5vh;
+    
+}

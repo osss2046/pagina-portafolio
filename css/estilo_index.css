@@ -1,0 +1,172 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 71%, rgba(159, 159, 159, 1) 100%);
+}
+header{
+    text-align: center;
+    margin: 0;
+    height: 15vh;
+    
+    background-position: 0% 300%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/fondo1.png");
+}
+nav	{
+	width: 100%;
+	height: 4vh;
+	text-align: center;
+    background-color:black;
+}
+
+ul{
+	margin-top: 10px;
+}
+
+li{
+    text-decoration: none;
+	display: inline;
+	color: white;
+	padding: 1vh 6vw 1vh;
+    text-shadow: 1px 1px 1px yellow;
+    transition: all .2s linear;
+}
+
+li:hover{
+    background-color: rgb(88, 2, 2); 
+    padding: 1vh 9vw 1vh;
+    text-shadow: 4px 4px 4px yellow;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vh;
+}
+h2{
+    text-align: center;
+}
+.encabezado{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.titulo{
+    margin-top: 4vh;
+    color: whitesmoke;
+    font-size: 5vh;
+    text-shadow: 2px 2px 7px gray;
+}
+
+.seccion1{
+    margin-top: 0;
+    width:100%;
+    height: 50vh;
+    
+
+}
+.seccion2{
+    width: auto;
+    height: auto;
+}
+#bloque1{
+    float: left;
+    width:49vw;
+    height: 50vh;
+    
+}
+#bloque2{
+    float: right;
+    width:49vw;
+    height: 50vh;
+    
+}
+
+.seccion4{
+    width:100%;
+    height: 50vh;
+    
+}
+
+#galeria{
+	display: flex;
+    margin-top: 0;
+	height: 47vh;
+	width: 100%;
+	/* fijamos un tamaño para las imagenes que apareceran en el inicio */
+}
+#galeria img{
+	width: 0px;
+	flex-grow: .5;
+	object-fit: cover;
+	opacity: 0.75;
+	transition: .8s;
+	/* configuramos el diseño de las imagenes que apareceran en el inicio */
+}
+#galeria img:hover{
+	cursor: pointer;
+	width: 20vh;
+	opacity: 0.95;
+	filter: contrast(120%);
+	/* hacemos que las imagenes sean interactivas con el cursor */
+}
+
+footer{
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    min-width: 100%;
+    height: 5vh;
+    
+}
+.cajapie{
+    float: left;
+
+  
+    
+}
+.container-clock{
+	color: #ffffff;
+	text-shadow: 0 0 10px rgb(230,171,10), 0 0 10px rgb(255,255,22);
+}
+p{
+    align-content: center;
+	letter-spacing: 0.1em;
+	font-size:1em;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .cajapie{
+        margin-left:10vw;
+    }
+    li{
+        padding: 1vh 2vw 1vh;
+    }
+    li:hover{
+        padding: 1vh 3vw 1vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cajapie{
+        margin-left:20vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cajapie{
+        margin-left:30vw;
+    }
+    body{
+        height:175%;
+    }
+}

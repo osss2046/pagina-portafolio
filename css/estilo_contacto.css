@@ -1,0 +1,238 @@
+
+body{
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 71%, rgba(159, 159, 159, 1) 100%);
+}
+header{
+    text-align: center;
+    margin: 0;
+    height: 15vh;
+    
+    background-position: 0% 300%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/fondo1.png");
+}
+nav	{
+	width: 100%;
+	height: 4vh;
+	text-align: center;
+    background-color:black;
+}
+
+
+ul{
+	margin: 10px;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vh;
+}
+
+li{
+    text-decoration: none;
+	display: inline;
+    text-shadow: 1px 1px 1px yellow;
+    transition: all .2s linear;
+    margin: 0;
+    
+}
+
+
+li:hover{
+    background-color: rgb(88, 2, 2); 
+
+
+}
+
+.titulo{
+    margin-top: 4vh;
+    color: whitesmoke;
+    text-shadow: 2px 2px 7px gray;
+}
+.seccion7{
+    margin: 20px 20px 20px;
+    align-self: center;
+}
+.seccion8{
+    margin: 0;
+    align-self: center;
+    
+}
+#letraUbi{
+    color: black;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#img_ubi{
+    align-self: center;
+	border: 2px solid black;
+	background-image: url("../img/ub.png");
+    background-size: cover;
+	height: 25vh;
+    width:40vw;
+}
+table{
+	text-align: center;
+	height: 30vh;
+	margin:0;
+}
+
+#caja{
+	height:3vh;
+}
+#comentario{
+	height:20vh;
+	
+}
+
+footer{
+    text-align: center;
+    color: black;
+    min-width: 100%;
+    height: 5vh;
+    
+}
+
+.container-clock{
+	color: #ffffff;
+	text-shadow: 0 0 10px rgb(230,171,10), 0 0 10px rgb(255,255,22);
+}
+p{
+    align-content: center;
+	letter-spacing: 0.1em;
+    
+}
+.cajapie{
+    float: left;
+}
+
+@media screen and (max-width: 767px) {
+    p{
+        font-size: 1em;
+        margin:0 4vw 0; 
+    
+    }
+    table{
+        font-size: 1em;
+        width: 40vw;
+    }
+    li{
+        padding: 1vh 2vw 1vh;
+    }
+    li:hover{
+        padding: 1vh 2vw 1vh;
+        text-shadow: 4px 4px 4px yellow;
+    }
+    .seccion7{
+        width: 60vw;
+    }
+    .seccion8{
+        width:60vw;
+    }
+    #caja{
+        width:40vw;
+    }
+    #comentario{
+        width: 40vw;
+    }
+    .titulo{
+        font-size: 4vh;
+    }
+
+.cajapie{
+    margin-left:30px;
+}
+footer{
+    margin-top: 1vh;
+}
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    body{
+        height: 100vh;
+    
+    }
+    p{
+        font-size: 1em;
+        margin-bottom: 0px;
+    
+    }
+    table{
+        font-size: 1em;
+    }
+    li{
+        padding: 1vh 6vw 1vh;
+    }
+    li:hover{
+        padding: 1vh 9vw 1vh;
+        text-shadow: 4px 4px 4px yellow;
+    }
+    #caja{
+        width:35vw;
+    }
+    #comentario{
+        width: 35vw;
+    }
+    .cajapie{
+        margin-left:25vw;
+    }
+    footer{
+        margin-top: 5vh;
+    }
+    .titulo{
+        font-size: 4vh;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+body{
+    height: 100vh;
+
+}
+p{
+    font-size: 1em;
+}
+table{
+    font-size: 1em;
+}
+li{
+    padding: 1vh 6vw 1vh;
+}
+li:hover{
+    padding: 1vh 9vw 1vh;
+    text-shadow: 4px 4px 4px yellow;
+}
+.seccion8{
+    width: 35vw;
+}
+#caja{
+    width:35vw;
+}
+#comentario{
+    width: 35vw;
+}
+.cajapie{
+    margin-left:30vw;
+}
+footer{
+    margin-top: 4vh;
+}
+.titulo{font-size: 5vh;}
+}
