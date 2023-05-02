@@ -1,5 +1,6 @@
 
 body{
+    height:190vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,18 +10,11 @@ body{
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 71%, rgba(159, 159, 159, 1) 100%);
 }
-.card{
-    background-color: black;
-}
-.letra{
-    color: white;
-    
-}
+
 header{
     text-align: center;
     margin: 0;
     height: 15vh;
-    
     background-position: 0% 300%;
     background-size: cover;
     background-attachment: fixed;
@@ -38,9 +32,8 @@ ul{
 }
 
 li{
-    text-decoration: none;
+    
 	display: inline;
-	color: white;
 	padding: 1vh 6vw 1vh;
     text-shadow: 1px 1px 1px yellow;
     transition: all .2s linear;
@@ -99,12 +92,19 @@ h2{
 }
 
 .seccion4{
-    padding-top: 10px;
+    
     width:100%;
     height: 50vh;
+
     
 }
-
+.letra{
+    color: white;
+    
+}
+.card{
+    background-color: black;
+}
 #galeria{
 	display: flex;
     margin-top: 0;
@@ -129,6 +129,7 @@ h2{
 }
 
 footer{
+    padding-top: 10vh;
     text-align: center;
     color: black;
     margin-top: 0;
@@ -163,6 +164,8 @@ p{
     li:hover{
         padding: 1vh 3vw 1vh;
     }
+
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -174,8 +177,5 @@ p{
 @media screen and (min-width: 1024px) {
     .cajapie{
         margin-left:30vw;
-    }
-    body{
-        height:175%;
     }
 }

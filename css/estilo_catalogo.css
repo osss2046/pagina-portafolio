@@ -32,21 +32,17 @@ ul{
 }
 
 li{
-    text-decoration: none;
+    
 	display: inline;
-	
 	padding: 1vh 6vw 1vh;
     text-shadow: 1px 1px 1px yellow;
-    transition: all .2s linear;
-
-    
+    transition: all .2s linear;   
 }
 
 li:hover{
     background-color: rgb(88, 2, 2); 
     padding: 1vh 9vw 1vh;
     text-shadow: 4px 4px 4px yellow;
-
 
 }
 a{
