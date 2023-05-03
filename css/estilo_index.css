@@ -17,16 +17,17 @@ body{
 }
 
 nav	{
-	padding: 0 11vw 0;
 	height: 4vh;
 	text-align: center;
     background-color:black;
     position: fixed;
     align-self: center;
     display: flex;
+    visibility: visible;
 }
 ul{
 	margin-top: 1vh;
+    padding-left:0;
 }
 
 li{
@@ -53,19 +54,14 @@ a{
 .titulo{
     text-align: center;
     color: black;
-    font-size: 5vh;
 }
 .presentacion{
     text-align: center;
     color: black;
-    font-size: 4vh;
 }
 
 .seccion1{
-    
-    margin: 22vh;
-    height: 55vh;
-    border-radius: 50vh;
+    border-radius: 12vh;
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(180, 180, 180)100%);
 }
 
@@ -155,9 +151,7 @@ input[type="button"]:hover{
 	border-radius: 0.3em;
 	color: gray;
 }
-.botonera{
-    margin: 7vh 22vw 0;
-}
+
 .button{
 
     margin: 2%;
@@ -238,20 +232,36 @@ p{
 }
 
 @media screen and (max-width: 767px) {
+    nav	{
+        padding: 0 2vw 0;
+    }
     .cajapie{
         margin-left:10vw;
     }
     li{
-        padding: 1vh 2vw 1vh;
+        padding: 1vh 0.5vw 1vh;
     }
     li:hover{
         padding: 1vh 3vw 1vh;
+    }
+    .seccion1{
+        margin: 10vh 5vw 5vh;
+        height:37vh;
+    }
+    .titulo{
+        margin-top: 5vh;
+    }
+    .botonera{
+        margin: 7vh 30vw 0;
     }
 
     
 }
 
 @media screen and (min-width: 768px) {
+    nav	{
+        padding: 0 11vw 0;
+    }
     .cajapie{
         margin-left:20vw;
     }
@@ -260,5 +270,22 @@ p{
 @media screen and (min-width: 1024px) {
     .cajapie{
         margin-left:30vw;
+    }
+    nav	{
+        padding: 0 11vw 0;
+    }
+    .seccion1{
+        margin: 22vh;
+        height: 55vh;
+    }
+    .titulo{
+        font-size: 5vh;
+
+    }
+    .presentacion{
+        font-size: 4vh;
+    }
+    .botonera{
+        margin: 7vh 22vw 0;
     }
 }
