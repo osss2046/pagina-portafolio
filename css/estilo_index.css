@@ -2,6 +2,7 @@
 html{
     scroll-behavior: smooth;
     scroll-padding: 4vh;
+    
 }
 body{
     margin: 0;
@@ -9,18 +10,19 @@ body{
     display: flex;
     flex-direction:column;
     font-family: Verdana,Arial, Helvetica, sans-serif;
-    background: rgb(85, 7, 7);
-    background: linear-gradient(to bottom, rgb(85, 7, 7) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgb(70, 4, 4) 0%, rgb(40, 1, 1) 100%);
     color: white;
     text-shadow: 1px 1px 1px gray;
     
 }
 
 nav	{
-	
+	padding: 0 12vw 0;
 	height: 4vh;
 	text-align: center;
     background-color:black;
+    position: fixed;
+    align-self: center;
 }
 ul{
 	margin-top: 1vh;
@@ -36,7 +38,7 @@ li{
 
 li:hover{
     color: white;
-    background-color: rgb(85, 7, 7); 
+    background-color: rgb(70, 4, 4); 
     padding: 1vh 9vw 1vh;
     text-shadow: 4px 4px 4px yellow;
 
@@ -47,49 +49,57 @@ a{
     color: white;
     font-size: 1.8vh;
 }
-h2{
+.presentacion{
     text-align: center;
+    color: black;
+    font-size: 5vh;
 }
 
 .seccion1{
     
-    margin: 20vh;
-    height: 50vh;
+    margin: 27vh;
+    height: 45vh;
     border-radius: 50vh;
-    background-color: white;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(180, 180, 180)100%);
 }
 
 
 .seccion2{
-    padding-top: 10px;
-    width: auto;
-    height: auto;
-    height: 50vh;
+    align-self: center;
+    margin: 0;
+    width: 80vw;
+    height: 55vh;
+
 
 }
 #bloque1{
     float: left;
-    width:49vw;
-    height: 50vh;
+    width:40vw;
+    height: 45vh;
     
 }
 #bloque2{
     float: right;
-    width:49vw;
-    height: 50vh;
+    width:40vw;
+    height: 45vh;
     
 }
-
-.seccion4{
+h2{
     
-    height: 50vh;   
+    text-align: center;
+    font-size: 2vh;
+}
+.seccion4{
+    align-self: center;
+    height: 45vh; 
+    width:80vw;  
 }
 
 
 #galeria{
 	display: flex;
     margin: 0;
-	height: 47vh;
+	height: 45vh;
 	/* fijamos un tamaño para las imagenes que apareceran en el inicio */
 }
 #galeria img{
@@ -103,6 +113,49 @@ h2{
 	width: 10%;
 	/* hacemos que las imagenes sean interactivas con el cursor */
 }
+
+
+.seccion7{
+    margin: 20vh auto 5vh;
+    align-self: center;
+}
+.seccion8{
+    margin: 0;
+    align-self: center;
+    
+}
+#letraUbi{
+    color: gray;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#img_ubi{
+    align-self: center;
+	border: 5px solid gray;
+	background-image: url("../img/ub.png");
+    background-size: cover;
+	height: 25vh;
+    width:40vw;
+}
+table{
+	text-align: center;
+	height: 30vh;
+	margin:0;
+}
+
+#caja{
+	height:3vh;
+    width:35vw;
+}
+#comentario{
+	height:20vh;
+	width:35vw;
+}
+
+
+
+
 
 footer{
     padding-top: 10vh;
