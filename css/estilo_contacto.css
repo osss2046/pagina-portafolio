@@ -7,8 +7,10 @@ body{
     flex-direction: column;
     min-height: 100%;
     font-family: Verdana,Arial, Helvetica, sans-serif;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 71%, rgba(159, 159, 159, 1) 100%);
+    background: rgb(57, 7,7);
+    background: linear-gradient(to bottom, rgba(57, 7, 7, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    text-shadow: gray;
 }
 header{
     text-align: center;
@@ -29,8 +31,7 @@ nav	{
 
 
 ul{
-	margin: 10px;
-    align-content: center;
+	margin: 1vh;
 }
 
 a{
@@ -50,7 +51,7 @@ li{
 
 
 li:hover{
-    background-color: rgb(88, 2, 2); 
+    background-color: rgb(57, 7, 7); 
 
 
 }
@@ -70,14 +71,14 @@ li:hover{
     
 }
 #letraUbi{
-    color: black;
+    color: gray;
     text-align: center;
     margin-top: 5vh;
 }
 
 #img_ubi{
     align-self: center;
-	border: 2px solid black;
+	border: 5px solid gray;
 	background-image: url("../img/ub.png");
     background-size: cover;
 	height: 25vh;
@@ -99,14 +100,12 @@ table{
 
 footer{
     text-align: center;
-    color: black;
     min-width: 100%;
     height: 5vh;
     
 }
 
 .container-clock{
-	color: #ffffff;
 	text-shadow: 0 0 10px rgb(230,171,10), 0 0 10px rgb(255,255,22);
 }
 p{
