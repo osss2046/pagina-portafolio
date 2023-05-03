@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/estilo_index.css">
 
+    <script type="text/javascript" src="js/validacion.js">
+	</script>
+
 </head>
 <body>
     <nav>
@@ -21,18 +24,26 @@
     </nav>
 
     <section class="seccion1">
-        <div class="presentacion">
+        <div class="titulo">
             <br>
             Bienvenido a Gradiente.
+        </div>   
+         <div class="presentacion">
             <br>
-            Gradiente te ayuda a administrar tus lecturas favoritas,
+            Te ayuda a administrar tus lecturas favoritas
             <br>
-            poder crear lista de deseos y crear tu libreria online.
+            y crear una libreria personalizada con tu lista de deseos
+            <br><br>
+            Gradiente tiene una extensa lista de 
             <br>
-            Gradiente tiene una extensa lista de titulos y además cuenta
-            <br>
-            con reseñas de la comunidad.
+            titulos y además cuenta con reseñas de la comunidad.
         </div>
+        <div class="botonera">
+            <a href="#" class="button">Iniciar Sesion </a> 
+            <a href="#" class="button">Registrarse </a>
+        </div>
+        
+
     </section>
     
     <section class="seccion2" id="section2">
@@ -41,16 +52,16 @@
             <div class="card"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-easing="ease-out-back">
+                
                 <div class="card-body">
-                    <a href="catalogo.html">
-                        <div id="galeria">
-                            <img src="img/foto12.png">
-                            <img src="img/foto13.png">
-                            <img src="img/foto14.png">
-                            <img src="img/foto15.png">
-                        </div>
-                    </a>
+                    
+                    <div id="galeria">
+                        <img src="img/foto12.png">
+                        <img src="img/foto13.png">
+                        <img src="img/foto14.png">
+                        <img src="img/foto15.png">
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -61,17 +72,17 @@
             <div class="card"
                 data-aos="fade-left"
                 data-aos-duration="2000"
-                data-aos-easing="ease-out-back">
+                
                 <div class="card-body">
-                    <a href="catalogo.html">
-                        <div id="galeria">
-                            <img src="img/foto16.png">
-                            <img src="img/foto17.png">
-                            <img src="img/foto18.png">
-                            <img src="img/foto19.png">
-                            <img src="img/foto20.png">
-                        </div>
-                    </a>
+                    
+                    <div id="galeria">
+                        <img src="img/foto16.png">
+                        <img src="img/foto17.png">
+                        <img src="img/foto18.png">
+                        <img src="img/foto19.png">
+                        <img src="img/foto20.png">
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -79,46 +90,54 @@
     <section class="seccion4">
        
         <div class="card"
-        data-aos="flip-up"
+        data-aos="zoom-in"
         data-aos-duration="2000"
-        data-aos-easing="ease-out-back">
-            <div class="card-body">
-                <a href="catalogo.html">
-                    <div id="galeria">
-                        <img src="img/foto21.png">
-                        <img src="img/foto22.png">
-                        <img src="img/foto23.png">
-                        <img src="img/foto24.png">
-                        <img src="img/foto25.png">
-                        <img src="img/foto26.png">
-                    </div>
-                </a>
+       
+            <div class="card-body">   
+                <div id="galeria">
+                    <img src="img/foto21.png">
+                    <img src="img/foto22.png">
+                    <img src="img/foto23.png">
+                    <img src="img/foto24.png">
+                    <img src="img/foto25.png">
+                    <img src="img/foto26.png">
+                </div>
             </div>
         </div>
     </section>
 
 
 
+    <form action="" method="POST" id="contacto-frm" name="contacto_frm">
+        <fieldset>
 
-    <section class="seccion7" id="contacto">
-            <table>
-                <tr>
-                    <td>Nombre</td>
-                    <td><input type="text" id="caja" placeholder="Ingrese su nombre" required></td>
-                </tr>
-                <tr>
-                    <td>Correo</td>
-                    <td><input type="email" id="caja" placeholder="usuario@dominio.com"></td>
-                </tr>
-                <tr>
-                    <td>Comentario</td>
-                    <td><textarea name="" id="comentario" cols="30" rows="10"></textarea></td>
-                    <tr></tr>
-                    <td></td>
-                    <td><input type="submit" value="enviar"></td>
-                </tr>
-            </table>
-        </section>
+            <section class="seccion7" id="contacto">
+                <div class="letra">
+                    Puedes contactarnos 
+                </div>
+                <table>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" name="txtNombre" id="nombre" placeholder="Ingrese su nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td>Correo</td>
+                        <td><input type="email" name="txtEmail" id="email" placeholder="usuario@dominio.com"></td>
+                    </tr>
+                    <tr>
+                        <td>Comentario</td>
+                        <td><textarea name="comentario" id="comentario" cols="30" rows="10" 
+                        placeholder="Ingrese un comentario"></textarea></td>
+                        <tr></tr>
+                        <td></td>
+                        <td><input type="button" name="enviar" id="enviar" class="cambio" value="Enviar">
+                            <input type="button" name="limpiar" id="limpiar" value="Limpiar" class="cambio"></td>
+                    </tr>
+                </table>
+            </section>
+        </fieldset>
+    </form>
+
         <section class="seccion8">
             <div id="letraUbi">
                 <p> Encuentranos en: General Mackenna 001, Valparaiso</p>
